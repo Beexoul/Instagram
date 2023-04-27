@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Beexoul-instagram Profile Clone</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+
+  <div class="profile">
+
+    <div class="profile__header">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- logo -->
+        <div class="profile__logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" alt="Instagram logo">
+        </div>
+        <!-- Search bar -->
+        <div class="profile__searchBar">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <!-- Settings -->
+        <div class="profile__settings">
+          <button>
+            <img src="instagram-home-icon.png" alt="Tagged" width="27" height="27">
+          </button>
+          <button>
+            <img src="instagram-message-icon.jpg" alt="Tagged" width="27" height="27">
+          </button>
+          <button>
+            <img src="instagram-upload-icon.png" alt="Tagged" width="27" height="27">
+          </button>
+          <button>
+            <img src="instagram-explore-icon.png" alt="Tagged" width="27" height="27">
+          </button>
+          <button>
+            <img src="instagram-heart-icon.png" alt="Tagged" width="24" height="24">
+          </button>
+          <button>
+            <img src="profile.jpg" alt="User image">
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <div class="profile__profile">
+      <div class="container d-flex align-items-center">
+
+        <div class="profile__profile__logo">
+          <img src="profile.jpg" alt="Profile Image">
+        </div>
+        <div class="profile__profile__details">
+
+          <div class="profile__profile__details__userName">
+            <h4>official_shivarajpaudel</h4>
+            <button>
+              Edit Profile
+            </button>
+            <button>
+              <img src="instagram-setting-icon.png" alt="Tagged" width="24" height="24">
+
+            </button>
+
+          </div>
+          <div class="profile__profile__details__follower my-3">
+            <span><b>8</b> posts</span>
+            <button>
+              <b>564</b> followers
+            </button>
+            <button>
+              <b>52</b> following
+            </button>
+          </div>
+          <div class="profile__profile__details__displayName">
+            <h5>Shiva Raj Paudel</h5>
+            <p>Science, Technology & Engineering<br>
+              <h7><b>It's okay if my life is anonymous but my death should be celebrated.<br>
+              Law & Data</b></h7>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="profile__section">
+      <div class="container">
+
+        <div class="profile__section__tab">
+          <button class="tablinks" onclick="openSection(event, 'Posts')" id="defaultOpen">
+            <img src="instagram-posts-icon.png" alt="Tagged" width="12" height="12">
+            Posts</button>
+          <button class="tablinks" onclick="openSection(event, 'Reels')">
+            <img src="instagram-reels-icon.png" alt="Tagged" width="12" height="12">
+            Reels</button>
+          <button class="tablinks" onclick="openSection(event, 'Saved')">
+            <img src="instagram-saves-icon.png" alt="Tagged" width="12" height="12">
+
+            Saved</button>
+            <button class="tablinks" onclick="openSection(event, 'Tagged')">
+              <img src="instagram-tag-icon.png" alt="Tagged" width="12" height="12">
+              Tagged
+            </button>
+        </div>
+
+        <div id="Posts" class="profile__section__tab__tabcontent">
+
+          <div class="profile__section__tab__tabcontent__container">
+
+            <div class="profile__section__tab__tabcontent__container__image">
+              <img src="post.png" class="img-fluid">
+              <img src="post.png" class="img-fluid">
+              <img src="post.png" class="img-fluid">
+            </div>
+            <div class="profile__section__tab__tabcontent__container__image">
+              <img src="post.png" class="img-fluid">
+              <img src="post.png" class="img-fluid">
+              <img src="post.png" class="img-fluid">
+            </div>
+            <div class="profile__section__tab__tabcontent__container__image">
+              <img src="post.png" class="img-fluid">
+              <img src="post.png" class="img-fluid">
+              <img src="post.png" class="img-fluid">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="Videos" class="profile__section__tab__tabcontent">
+
+        </div>
+
+        <div id="Saved" class="profile__section__tab__tabcontent">
+
+        </div>
+
+        <div id="Tagged" class="profile__section__tab__tabcontent">
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
