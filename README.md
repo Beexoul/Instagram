@@ -30,4 +30,4 @@ Contributions are welcome! If you find any issues or want to enhance the project
 <h1>Acknowledgments</h1>
 The project uses the Bootstrap framework for styling and responsiveness.<br>
 The Font Awesome library is used for displaying icons.<br>
-This project was created by ![Beexoul](https://www.instagram.com/official_shivarajpaudel)
+This project was created by Beexoul
