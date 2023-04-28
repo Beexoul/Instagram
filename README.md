@@ -27,9 +27,6 @@ screenshots of the cloned Instagram profile page
 <h1>Contributing</h1>
 Contributions are welcome! If you find any issues or want to enhance the project, feel free to open an issue or submit a pull request.
 
-<h1>License</h1>
-This project is licensed under the MIT License.
-
 <h1>Acknowledgments</h1>
 The project uses the Bootstrap framework for styling and responsiveness.
 The Font Awesome library is used for displaying icons.
