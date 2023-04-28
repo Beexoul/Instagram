@@ -1,4 +1,4 @@
-##Instagram Profile Clone
+#Instagram Profile Clone
 This project is a clone of the Instagram profile page. It mimics the layout and design of the Instagram profile page, including the header, profile details, and post sections.
 
 ##Technologies Used
