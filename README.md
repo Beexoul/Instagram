@@ -4,7 +4,7 @@ This project is a clone of the Instagram profile page. It mimics the layout and 
 <h1>Technologies Used</h1>
 HTML <br>
 CSS<br>
-Bootstrap 5<br>
+Bootstrap<br>
 Font Awesome<br>
 JavaScript<br>
 <h1>Installation</h1>
@@ -30,4 +30,3 @@ Contributions are welcome! If you find any issues or want to enhance the project
 <h1>Acknowledgments</h1>
 The project uses the Bootstrap framework for styling and responsiveness.<br>
 The Font Awesome library is used for displaying icons.<br>
-This project was created by Beexoul
